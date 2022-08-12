@@ -60,8 +60,9 @@ ul li {
     color: var(--neutral-white);
     max-width: 317px;
     margin: 50px auto 0;
-    border:1px lightblue solid;
     border-radius: 10px;
+    box-shadow: 5px 5px 6px 5px rgba(0,0,0,0.27);
+
 }
 
 
@@ -80,6 +81,11 @@ ul li {
     width:100%;
     display: flex;
     flex-direction: column;
+    border-radius:10px 10px 0 0 ;
+}
+
+.info-container .hero-img {
+    border-radius: inherit;
 }
 
 .info-container .details {

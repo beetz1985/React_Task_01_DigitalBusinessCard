@@ -5,7 +5,7 @@ import linked from '../assets/Linked In.png'
 function MainInfo() {
     return (
         <main className="info-container">
-            <img src={hero} alt="hero"/>
+            <img className="hero-img" src={hero} alt="hero"/>
             <div className="details">
                 <h1>Laura Smith</h1>
                 <h2>Front End Developer</h2>
