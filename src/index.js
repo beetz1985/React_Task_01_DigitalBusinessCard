@@ -1,20 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import MainInfo from '../src/components/MainInfo';
-import About from '../src/components/About';
-import Interests from '../src/components/Interests';
-import Social from '../src/components/Social';
-
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div className="wrapper">
-    <MainInfo />
-    <About />  
-    <Interests />
-    <Social />   
-  </div>
-
+  <App />
 );
 
 //Main Info
