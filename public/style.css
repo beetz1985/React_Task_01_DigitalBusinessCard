@@ -90,6 +90,9 @@ ul li {
 
 .info-container .details h1 {
     font-size: var(--fs-h1-25);
+
+    margin: 25px 0 3px 0;
+   
 }
 .info-container .details h2 {
     font-size: var(--fs-h2-12_8);
@@ -99,6 +102,7 @@ ul li {
 
 .info-container .details p {
     font-size: var(--fs-p-10_24);
+    margin-top: 10px;
 }
 
 .info-container .btns-container {
@@ -113,7 +117,11 @@ ul li {
     justify-content: center;
     align-items: center;
     width:115px;
+    padding:10px;
+    cursor: pointer;
 }
+
+
 
 .btns-container button:first-child {
     background-color: var(--neutral-white);
@@ -121,11 +129,13 @@ ul li {
 
 .btns-container button:first-child span{
     color: var(--text-dark);
+    margin: 0 4px;
 }
 
 .btns-container button:first-child img {
     height:9.6px;
     width:12.8px;
+    margin: 0 4px;
 }
 
 .btns-container button:last-child {
@@ -135,11 +145,14 @@ ul li {
 .btns-container button:last-child span {
     background-color: var(--linked-in-btn-colour);
     color: var(--neutral-white);
+    margin: 0 4px;
 }
 
 .btns-container button:last-child img {
     height:13.33px;
     width:13.33px;
+    margin: 0 4px;
+    
 }
 
 .btns-container span {
